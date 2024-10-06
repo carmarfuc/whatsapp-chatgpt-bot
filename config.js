@@ -108,12 +108,12 @@ export default {
 
   // Required. Specify the Wassenger API key to be used
   // You can obtain it here: https://app.wassenger.com/apikeys
-  apiKey: env.API_KEY || 'ENTER API KEY HERE',
+  apiKey: env.API_KEY || '87bc88ad134c048df23942f74561e391fce8dc1ece723273d5c63071edef38594987d7f987e7c690',
 
   // Required. Specify the OpenAI API key to be used
   // You can sign up for free here: https://platform.openai.com/signup
   // Obtain your API key here: https://platform.openai.com/account/api-keys
-  openaiKey: env.OPENAI_API_KEY || '',
+  openaiKey: env.OPENAI_API_KEY || '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',
 
   // Required. Set the OpenAI model to use.
   // You can use a pre-existing model or create your fine-tuned model.
@@ -146,7 +146,7 @@ export default {
   // Required if webhook URL is not provided.
   // sign up for free and get one: https://ngrok.com/signup
   // Learn how to obtain the auth token: https://ngrok.com/docs/agent/#authtokens
-  ngrokToken: env.NGROK_TOKEN,
+  ngrokToken: env.NGROK_TOKEN || '2n3RNklF2J4glsG6Hv0oB6GjJCP_3nB47GbEFWpoTKtCfcYKj'
 
   // Optional. Full path to the ngrok binary.
   ngrokPath: env.NGROK_PATH,
