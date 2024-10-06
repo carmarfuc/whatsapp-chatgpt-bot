@@ -108,12 +108,12 @@ export default {
 
   // Required. Specify the Wassenger API key to be used
   // You can obtain it here: https://app.wassenger.com/apikeys
-  apiKey: env.API_KEY || '87bc88ad134c048df23942f74561e391fce8dc1ece723273d5c63071edef38594987d7f987e7c690',
+  apiKey: env.API_KEY || '',
 
   // Required. Specify the OpenAI API key to be used
   // You can sign up for free here: https://platform.openai.com/signup
   // Obtain your API key here: https://platform.openai.com/account/api-keys
-  openaiKey: env.OPENAI_API_KEY || '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',
+  openaiKey: env.OPENAI_API_KEY || '',
 
   // Required. Set the OpenAI model to use.
   // You can use a pre-existing model or create your fine-tuned model.
