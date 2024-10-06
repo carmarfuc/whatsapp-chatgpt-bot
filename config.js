@@ -146,7 +146,7 @@ export default {
   // Required if webhook URL is not provided.
   // sign up for free and get one: https://ngrok.com/signup
   // Learn how to obtain the auth token: https://ngrok.com/docs/agent/#authtokens
-  ngrokToken: env.NGROK_TOKEN || '2n3RNklF2J4glsG6Hv0oB6GjJCP_3nB47GbEFWpoTKtCfcYKj'
+  ngrokToken: env.NGROK_TOKEN || '',
 
   // Optional. Full path to the ngrok binary.
   ngrokPath: env.NGROK_PATH,
